@@ -15,6 +15,7 @@
 		4222C2A221A972B300688AF3 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4222C2A121A972B300688AF3 /* CategoryCell.swift */; };
 		4222C2A421A97F2400688AF3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4222C2A321A97F2400688AF3 /* Category.swift */; };
 		4222C2A721A9822900688AF3 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4222C2A621A9822900688AF3 /* DataService.swift */; };
+		4222C2A921A9A23100688AF3 /* ProductCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4222C2A821A9A23100688AF3 /* ProductCVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4222C2A121A972B300688AF3 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		4222C2A321A97F2400688AF3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		4222C2A621A9822900688AF3 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		4222C2A821A9A23100688AF3 /* ProductCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				4222C2A121A972B300688AF3 /* CategoryCell.swift */,
 				4222C29021A9691C00688AF3 /* Main.storyboard */,
+				4222C2A821A9A23100688AF3 /* ProductCVCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				4222C28F21A9691C00688AF3 /* CategoriesVC.swift in Sources */,
 				4222C28D21A9691C00688AF3 /* AppDelegate.swift in Sources */,
+				4222C2A921A9A23100688AF3 /* ProductCVCell.swift in Sources */,
 				4222C2A221A972B300688AF3 /* CategoryCell.swift in Sources */,
 				4222C2A421A97F2400688AF3 /* Category.swift in Sources */,
 				4222C2A721A9822900688AF3 /* DataService.swift in Sources */,
