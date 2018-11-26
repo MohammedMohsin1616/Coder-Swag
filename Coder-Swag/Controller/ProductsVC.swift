@@ -12,21 +12,25 @@ class ProductsVC: UIViewController, UICollectionViewDelegate, UICollectionViewDa
     
 
     private(set) public var products = [Product]()
+    var label: String?
     
     @IBOutlet weak var productsCollection: UICollectionView!
-    @IBOutlet weak var productLabel: UILabel! 
+    @IBOutlet weak var productLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         productsCollection.delegate = self
         productsCollection.dataSource = self
+        
+        productLabel.text = label
     }
     
 
     func initProducts(category: Category) {
         
         products = DataService.instance.getProducts(forCategoryTitle: category.title)
+        label = category.title
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
